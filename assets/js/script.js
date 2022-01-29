@@ -5,27 +5,55 @@ $("#currentDay").text(today);
 
 
 
-// To change time to read as military time
-var military = parseInt(moment().format('HH'));
-console.log(military)
+// To change time to read as military time - H = without leading 0
+var militaryTime = parseInt(moment().format('H'));
+console.log(militaryTime)
 
 
 // // Formating so that the current time is in red, future in green, and past in grey
 $("textarea").each(function() {
     var timeSlot = parseInt($(this).attr("data"));
-    if (military === timeSlot) {
+    if (militaryTime === timeSlot) {
         $(this).addClass("present");
     } 
-    if (military < timeSlot) {
+    if (militaryTime < timeSlot) {
         $(this).addClass("future");
     } 
-    if (military > timeSlot) {
+    if (militaryTime > timeSlot) {
         $(this).addClass("past")
     }
 })
 
 
 
+
+//Defining variable for save buttons
+var saveBtn = document.querySelectorAll(".saveBtn btn btn-primary col-1")
+var texts = document.querySelectorAll("textarea")
+var nineAM = document.querySelector("#9am")
+
+function saveAllText(event) {
+    event.preventDefault();
+    localStorage.setItem("nineAM", $(nineAM.textContent()));
+}
+
+
+
+
+
+
+
+$(".saveBtn btn btn-primary col-1").click(function(event){
+    saveAllText(event)
+})
+
+
+
+
+// saveBtn.addEventListener("click", function(event) {
+//     saveAllText(event);
+
+// });
 
 
 
