@@ -1,9 +1,11 @@
+/* Styling for the whole page */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
+/* Styling for the text box */
 textarea {
   background: transparent;
   border: none;
@@ -13,6 +15,7 @@ textarea {
   padding: 10px;
 }
 
+/* Header styling */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -25,6 +28,7 @@ textarea {
   white-space: pre-wrap;
 }
 
+/* Styling for each time row */
 .time-block {
   text-align: center;
   border-radius: 15px;
@@ -36,30 +40,30 @@ textarea {
   border-top: 1px solid white;
 }
 
+/* Styling for the time area */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
-/* did not use - for js */
+/* Styling for the colors of the slots for JS file */
 .past {
   background-color: #d3d3d3;
-  color: white;
+  /*color: white;*/ /* Comment these out cause the Readme for the hw, the color was black */
 }
 
-/* did not use - for js */
 .present {
   background-color: #ff6961;
-  color: white;
+  /*color: white;*/ /* Comment these out cause the Readme for the hw, the color was black */
 }
 
-/* did not use - for js */
 .future {
   background-color: #77dd77;
-  color: white;
+  /*color: white;*/ /* Comment these out cause the Readme for the hw, the color was black */
 }
 
+/* Styling for the save buttons */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
