@@ -1,7 +1,7 @@
 # My Work Day Schedule 
 
 ## Project Description
-With this day schedule, you will always remember what you need to do and when to do it! Simply add tasks to the slot next to the correct corresponding hour and hit save. You may update, change, and move you tasks as you see fit. They will remain there even if you comeback to it days later!
+With this day schedule, you will always remember what you need to do and when to do it! Simply add tasks to the slot next to the corresponding hour and hit save. You may update, change, and move your tasks as you see fit. They will remain there even if you come back to it days later!
 
 <br/>
 
@@ -19,11 +19,11 @@ With this day schedule, you will always remember what you need to do and when to
 
 <br/>
 
-[Live Project]()
+[Live Project](https://jentruong09.github.io/my-work-day-schedule/)
 
 <br/>
 
-[Repository]()
+[Repository](https://github.com/jentruong09/my-work-day-schedule)
 
 <br/>
 
@@ -34,6 +34,26 @@ With this day schedule, you will always remember what you need to do and when to
 
 
 ## Credits
+This project is made possible by:
+
+All starting code was provided by: Trilogy Education Services, LLC, a 2U, Inc. brand.
+
+[W3Schools - Emoji Unicode Reference](https://www.w3schools.com/charsets/ref_emoji.asp)
+
+<br/>
+
+Technologies Used in this project:
+
+[jQuery](https://jqueryui.com/)
+
+[Bootstrap](https://getbootstrap.com/)
+
+[Moment.js](https://momentjs.com/)
+
+[Google Fonts](https://fonts.google.com/)
+
+[Fontawesome](https://fontawesome.com/)
+
 
 <br/>
 
